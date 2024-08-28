@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './LoginPopup.css';
 import { assets } from "../../assets/assets";
 
-const LoginPopup = ({setShowLogin}) => {
+const LoginPopUp = ({setShowLogin}) => {
 
     const [currState,setCurrState] = useState("Login")
 
@@ -32,4 +32,4 @@ const LoginPopup = ({setShowLogin}) => {
   )
 }
 
-export default LoginPopup
+export default LoginPopUp
